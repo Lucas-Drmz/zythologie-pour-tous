@@ -46,7 +46,7 @@
     </header>
     <main class="row mx-lg-3">
         <div class="container">
-            <div class="row col">
+            <div class="row">
                 <article>
                     <h1 class="text-center">Bienvenue sur le site de l'association La Zythologie pour tous !</h1>
                     <p>Notre association loi de 1901 est née en 2020 de la passion de ses fondateurs pour la bière, et plus largement de la Zythologie.
@@ -67,11 +67,11 @@
                 </article>
             </div>
             <div class="row mx-2 mx-md-0 justify-content-around">
-                <div class="card border-warning col-md-5 my-2 px-0">
+                <div class="card border-warning col-lg-5 my-2 px-0">
                     <img src="./Assets/degustation-de-bieres.jpg" class="card-img-top" alt="tasting-picture">
                     <div class="card-body">
-                        <h5 class="card-title">Prochain événement à venir : Dégustation de bières - NEIPA</h5>
-                        <h6 class="card-subtitle mb-1">Samedi 7 mai 2021 - 19h00</h6>
+                        <h2 class="card-title h5">Prochain événement à venir : Dégustation de bières - NEIPA</h2>
+                        <h3 class="card-subtitle mb-1 h6">Samedi 7 mai 2021 - 19h00</h3>
                         <p class="card-text">Retrouvez nous pour une dégustation autour des bières NEIPA. Cousines des IPA, bières phares du mouvement 
                           craft (bières artisanales), nous profiterons de cet événement pour vous les faire découvrir. Encore méconnues, elles ont
                           beaucoup de choses à offrir, et pourraient bien devenir les nouvelles stars de nos brasseries préférées.
@@ -82,11 +82,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="card border-warning col-md-5 my-2 px-0">
+                <div class="card border-warning col-lg-5 my-2 px-0">
                     <img src="./Assets/img-adhesion.png" class="card-img-top" alt="membership-picture">
                     <div class="card-body">
-                        <h5 class="card-title">Devenir membre de l'association</h5>
-                        <h6 class="card-subtitle mb-3">Obtenez votre carte membre et profitez de tous les avantages de ce statut</h6>
+                        <h2 class="card-title h5">Devenir membre de l'association</h2>
+                        <h3 class="card-subtitle mb-3 h6">Obtenez votre carte membre et profitez de tous les avantages de ce statut</h3>
                         <p class="card-text">Nos membres bénéficient d'avantages exclusifs tout au long de l'année: </p>
                         <ul>
                             <li>Evénements réservés exclusivement aux membres</li>
@@ -100,6 +100,32 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="row mx-2 mx-md-0 my-4 shadow p-3 bg-white rounded">
+                <h2 class="text-center">Nous contacter</h2>
+                <form>
+                    <div class="mb-3 row">
+                        <div class="col">
+                            <label class="form-label" for="#contactName">Nom</label>
+                            <input class="form-control" type="text" id="contactName">
+                        </div>
+                        <div class="col">
+                            <label class="form-label" for="#contactEmail">Adresse Email</label>
+                            <input class="form-control" type="email" id="contactEmail">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="#contactOject">Objet</label>
+                        <input class="form-control" type="text" id="contactOject">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" for="#contactMessage">Message</label>
+                        <textarea class="form-control" name="message" id="contactMessage" rows="4"></textarea>
+                    </div>
+                    <div class="text-end">
+                        <button class="btn btn-success" type="submit">Envoyer</button>
+                    </div>
+                </form>
             </div>
         </div>
     </main>

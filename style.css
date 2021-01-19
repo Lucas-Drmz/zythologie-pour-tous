@@ -1,10 +1,10 @@
-body p {
+body p, li {
     text-align: justify;
     font-size: 2.5vmin;
 }
 
 @media screen and (min-width:750px) {
-    body p {
+    body p, li {
         font-size: 2vmin;
     }
 }
@@ -15,6 +15,7 @@ body p {
 
 h1 {
     font-size: 5vw;
+    margin: 0.5em 0 0.5em 0;
 }
 
 @media screen and (min-width:700px) {
@@ -26,7 +27,6 @@ h1 {
 @media screen and (min-width:900px) {
     h1 {
         font-size: 3vw;
-        margin: 0.5em 0 0.5em 0;
     }
 }
 

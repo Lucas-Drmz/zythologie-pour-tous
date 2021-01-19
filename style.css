@@ -3,9 +3,17 @@ body p, li {
     font-size: 2.5vmin;
 }
 
+footer p {
+    font-size: 2vmin;
+}
+
 @media screen and (min-width:750px) {
     body p, li {
         font-size: 2vmin;
+    }
+
+    footer p {
+        font-size: 1.5vmin;
     }
 }
 

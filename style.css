@@ -7,23 +7,31 @@ footer p {
     font-size: 2vmin;
 }
 
+h1 {
+    font-size: 5vw;
+    margin: 0.5em 0 0.5em 0;
+}
+
+/* Changing the main logo size in the navbar */
+.logo-asso {
+    height: 3em;
+}
+
+/* setting the event page card layout */ 
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1em;
+}
+
 @media screen and (min-width:750px) {
     body p, li {
-        font-size: 2vmin;
+        font-size: 2.2vmin;
     }
 
     footer p {
         font-size: 1.5vmin;
     }
-}
-
-.logo-asso {
-    height: 3em;
-}
-
-h1 {
-    font-size: 5vw;
-    margin: 0.5em 0 0.5em 0;
 }
 
 @media screen and (min-width:700px) {
@@ -41,5 +49,12 @@ h1 {
 @media screen and (min-width:1300px) {
     h1 {
         font-size: 2.5vw;
+    }
+
+    /* Changing the event card layout from 2 to 3 columns*/
+    .events-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1em;
     }
 }
